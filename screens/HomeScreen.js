@@ -2,13 +2,12 @@
 import React, { Component } from 'react';
 import { SafeAreaView } from 'react-native';
 import { View, Text, StyleSheet } from 'react-native';
+import Tabs from './Tabs'
 
 // create a component
 const HomeScreen = () => {
     return (
-        <SafeAreaView style={styles.container}>
-            <Text>HomeScreen</Text>
-        </SafeAreaView>
+        <Tabs />
     );
 };
 
@@ -18,7 +17,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#2c3e50',
+        backgroundColor: '#fff',
     },
 });
 
