@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import Tabs from './Tabs'
 
 // create a component
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
     return (
         <Tabs />
     );
